@@ -1,0 +1,26 @@
+h1 {
+    color: #5FCFFC;
+    background-color: rgb(89, 151, 0);
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: blue overline wavy;
+    letter-spacing: 15px;
+    font-size: 80px;
+    font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+}
+
+a {
+    text-decoration: none;
+}
+
+button {
+    color: rgb(170, 48, 170);
+    background-color: rgb(34, 185, 185);
+}
+
+p {
+    color: green;
+    background-color: salmon;
+    line-height: 2;
+}

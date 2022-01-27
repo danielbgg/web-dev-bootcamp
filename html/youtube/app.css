@@ -1,0 +1,9 @@
+section {
+    width: 1000px;
+    height: 800px;
+    background-color: green;
+}
+
+.ytp-chrome-top-buttons {
+    background-color: magenta;
+}

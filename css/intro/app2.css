@@ -1,0 +1,98 @@
+body {
+    background-color: #f1faee;
+}
+
+button {
+    font-size: 30px;
+    background-color: #a8dadc;
+}
+
+h1, h2 {
+    color: #1d3557;
+}
+
+span {
+    color: #457b9d;
+}
+
+.post a {
+    color: #457b9d;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+/* id selector */
+#signup {
+    background-color: #1d3557;
+    color: #f1faee;
+}
+
+/* class selector */
+.tag {
+    background-color: #e63946;
+    color: #f1faee;
+    font-size: 16px;
+}
+
+/* descendant selector - all nested or descendant */
+footer a {
+    color: #e63946;
+}
+
+/* adjacent selector */
+h2 + button {
+    font-size: 20px;
+}
+
+/* direct child */
+footer > a {
+    color: #457b9d;
+}
+
+/* attribute selector */
+input[type="password"] {
+    color:#e63946;
+}
+
+a[href*="puppies"] {
+    color: magenta;
+}
+
+/* pseudo classes - keyword added to a selector that specifies a special state of the selected element */
+.post button:hover {
+    background-color: #e63946;
+    color: #f1faee;
+}
+
+.post button:active {
+    background-color: #2a9d8f;
+}
+
+.post a:hover {
+    text-decoration: underline;
+}
+
+.post:nth-of-type(2n) {
+    background-color: #dfe8dc;
+}
+
+/* pseudo elements - keyword added to a selector that lets you style a particular part of selected element(s) */
+h2::first-letter {
+    font-size: 50px;
+    color: red;
+}
+
+h2::selection {
+    background-color: goldenrod;
+}
+
+/* cascade */
+h1, h2 {
+    color: yellow;
+}
+
+button:hover {
+    background-color: olive;
+    font-size: 10px;
+}
+
